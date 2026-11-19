@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# MLflow
+mlruns/
+mlflow.db
+mlflow.db-journal
+
+# Generated models
+models/*.pkl
+models/*.joblib
+
+# Monitoring data and logs
+data/raw/
+data/processed/
+logs/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

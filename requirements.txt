@@ -1,0 +1,14 @@
+
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn[standard]
+mlflow
+streamlit
+prometheus-client
+requests
+joblib
+pydantic
+pytest
+httpx
